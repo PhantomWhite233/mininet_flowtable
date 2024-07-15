@@ -1,8 +1,11 @@
 # mininet_flowtable
 
 拓扑：remote_134.py
+
 控制器:ryu.py
+
 发送数据包：h1_send_data1.py h1_send_data2.py
+
 接收数据包：receive.py
 
 先运行拓扑
