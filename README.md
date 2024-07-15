@@ -8,6 +8,7 @@
 
 接收数据包：receive.py
 
+
 先运行拓扑
 sudo mn --custom remote_134.py --topo=mytopo --controller=remote,ip=127.0.0.1,port=6633
 
@@ -19,6 +20,7 @@ ryu-manager ryu.py
 在h2和h4上分别运行receive.py（我这里有警告，但是似乎并不影响功能，所以没管）
 
 在h1上分别发送data1,data2。发送data1时h2收到，发送data2时h4收到，同样有警告，同样没管
+
 
 遇到的坑：
 1.	添加过流表后必须删除才能对这个端口添加新的流表
